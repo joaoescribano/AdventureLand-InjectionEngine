@@ -1,0 +1,78 @@
+<!-- Injection Engine HTML -->
+<div class="box" id="injection_engine">
+    <h2 class="title" style="text-align: center;">
+        Injection Engine - '+version+'
+    </h2>
+    <hr/>
+    <h4 class="title" style="color: orange;">
+        Hunt Session
+    </h4>
+    <hr/>
+    <h4 class="title" style="color: orange;">
+        Profits
+    </h4>
+    <hr/>
+    <h4 class="title" style="color: orange;">
+        Auto Buy
+    </h4>
+    <div style="display: flex; width: 100%;">
+    	<div class="item">
+		    <div class="boxItm">
+		        <img src="/images/tiles/items/pack_20.png?v=39" class="mpot0">
+		        </img>
+		    </div>
+		    <input maxlength="3" type="number" min="0" step="1" class="count" value="'+injConf.buy_items['mpot0']+'" id="tot_mpot0" />
+		</div>
+		<div class="item">
+		    <div class="boxItm">
+		        <img src="/images/tiles/items/pack_20.png?v=39" class="mpot1">
+		        </img>
+		    </div>
+		    <input maxlength="3" type="number" min="0" step="1" class="count" value="'+injConf.buy_items['mpot1']+'" id="tot_mpot1" />
+		</div>
+		<div class="item">
+		    <div class="boxItm">
+		        <img src="/images/tiles/items/pack_20.png?v=39" class="hpot0">
+		        </img>
+		    </div>
+		    <input maxlength="3" type="number" min="0" step="1" class="count" value="'+injConf.buy_items['hpot0']+'" id="tot_hpot0" />
+		</div>
+		<div class="item">
+		    <div class="boxItm">
+		        <img src="/images/tiles/items/pack_20.png?v=39" class="hpot1">
+		        </img>
+		    </div>
+		    <input maxlength="3" type="number" min="0" step="1" class="count" value="'+injConf.buy_items['hpot1']+'" id="tot_hpot1" />
+		</div>
+    </div>
+    <hr/>
+    <div class="actions">
+        <button id="btn_auto_hunt" onclick="toggle_auto_hunt();">
+            Auto Hunt:
+            <span class="'+(injConf.hunt ? 'on' : 'off')+'">'+(injConf.hunt ? 'on' : 'off')+'</span>
+        </button>
+        <br/>
+        <button id="btn_auto_drink" onclick="toggle_auto_drink();">
+            Auto Drink:
+            <span class="'+(injConf.drink ? 'on' : 'off')+'">'+(injConf.drink ? 'on' : 'off')+'</span>
+        </button>
+        <br/>
+        <button id="btn_auto_buy" onclick="toggle_auto_buy();">
+            Auto Buy:
+            <span class="'+(injConf.buy ? 'on' : 'off')+'">'+(injConf.buy ? 'on' : 'off')+'</span>
+        </button>
+        <br/>
+        <button id="btn_auto_loot" onclick="toggle_auto_loot();">
+            Auto Loot:
+            <span class="'+(injConf.loot ? 'on' : 'off')+'">'+(injConf.loot ? 'on' : 'off')+'</span>
+        </button>
+    </div>
+    <div class="author">
+        <small>
+            Developed by:
+            <a href="https://github.com/joaoescribano/AdventureLand-InjectionEngine" target="_blank">
+                git@joaoescribano
+            </a>
+        </small>
+    </div>
+</div>

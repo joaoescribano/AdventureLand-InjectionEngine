@@ -1,0 +1,92 @@
+<!-- Injection Engine Style -->
+<style type="text/css">
+#injection_engine .box {
+    position: fixed;
+    width: 400px;
+    z-index: 310;
+    bottom: 50%;
+    left: 0px;
+    background-color: black;
+    border: 5px solid gray;
+    padding: 2px;
+    display: inline-block;
+}
+#injection_engine .title {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#injection_engine .author, #injection_engine .author a:visited, #injection_engine .author a:active {
+    text-align: right;
+    font-size: 18px;
+    color: #FFF;
+}
+#injection_engine .actions button {
+    background-color: #000;
+    border: 0;
+    color: #FFF;
+    cursor: pointer;
+}
+#injection_engine .actions button span.on {
+    color: green;
+}
+#injection_engine .actions button span.off {
+    color: red;
+}
+#injection_engine div .item:first-child {
+    margin-left: 0px;
+}
+#injection_engine div .item {
+    background: black;
+    /*position: absolute;*/
+    /*bottom: -2px;*/
+    /*left: -2px;*/
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    float: left;
+    border: 2px solid gray;
+    padding: 3px;
+    overflow: hidden;
+}
+#injection_engine div .item .boxItm {
+    overflow: hidden;
+    height: 40px;
+    padding-left: 10px;
+    width: 40px;
+}
+#injection_engine div .item .boxItm img {
+    width: 640px;
+    height: 2160px;
+}
+#injection_engine div .item .count {
+    border: 2px solid gray;
+    background: black;
+    padding: 1px 2px 1px 3px;
+    position: relative;
+    height: 16px;
+    width: 51px;
+    text-align: center;
+    line-height: 16px;
+    height: 16px;
+    font-size: 14px;
+    color: #FFF;
+    left: 0px;
+    bottom: 0px;
+}
+.mpot0 {
+    margin-top: -840px;
+    margin-left: -200px;
+}
+.mpot1 {
+    margin-top: -840px;
+    margin-left: -280px;
+}
+.hpot0 {
+    margin-top: -840px;
+    margin-left: -160px;
+}
+.hpot1 {
+    margin-top: -840px;
+    margin-left: -240px;
+}
+</style>
