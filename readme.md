@@ -4,7 +4,7 @@
 This code is free to use, use at your own risk.
 
 A image from the actual injection panel
-![Injection Panel](https://raw.githubusercontent.com/joaoescribano/AdventureLand-InjectionEngine/master/images/panel.png)
+![Injection Panel](https://github.com/joaoescribano/AdventureLand-InjectionEngine/blob/master/imgs/panel.png)
 
 A image from the actual injection menu for toggle the panel on/off
-![Injection Menu](https://raw.githubusercontent.com/joaoescribano/AdventureLand-InjectionEngine/master/images/menu.png)
+![Injection Menu](https://github.com/joaoescribano/AdventureLand-InjectionEngine/blob/master/imgs/menu.png)
